@@ -1,0 +1,38 @@
+.helper-prompts {
+  max-width: 42rem;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.helper-prompts__title {
+  margin: 0 0 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #111827;
+}
+
+.helper-prompts__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: stretch;
+}
+
+.helper-prompts__button {
+  width: 100%;
+  text-align: left;
+  padding: 0.875rem 1rem;
+  border-radius: 0.75rem;
+  border: 1px solid #e5e7eb;
+  background: #fff;
+  color: #111827;
+  cursor: pointer;
+}
+
+.helper-prompts__button:hover {
+  border-color: #93c5fd;
+  background: #f8fafc;
+}

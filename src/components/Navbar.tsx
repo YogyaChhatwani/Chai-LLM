@@ -62,7 +62,7 @@ function Navbar({ onAddSource, sources }: NavbarProps) {
           </button>
 
           <a href="/" className="navbar__logo" onClick={closeMenu}>
-            CHAI LLM
+           COFFEE_LLM
           </a>
         </div>
 

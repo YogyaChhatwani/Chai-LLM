@@ -41,6 +41,8 @@ function ChatPanel() {
     setMessageInput('')
     setIsSending(true)
 
+    // Demo transport only. A real request must support cancellation or request
+    // identity so clearing the chat cannot append a stale response.
     window.setTimeout(() => {
       const assistantMessage: Chat = {
         id: crypto.randomUUID(),

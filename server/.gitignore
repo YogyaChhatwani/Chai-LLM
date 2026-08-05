@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+# Environment & secrets (keep examples)
+.env
+.env.*
+!.env.example
+!.env*.example
+
+# Keys, certs, credentials
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+id_rsa
+id_rsa.*
+credentials.json
+service-account*.json
+*-credentials.json
+.secrets/
+secrets/
+
+# Build / generated
+dist/
+coverage/
+*.tsbuildinfo
+/src/generated/prisma
+
+# Runtime data
+data/
+uploads/
+*.sqlite
+*.sqlite3
+*.db
+*.log
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
